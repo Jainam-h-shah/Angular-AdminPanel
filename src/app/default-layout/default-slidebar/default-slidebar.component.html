@@ -1,0 +1,30 @@
+<div class="app" style="display: flex; height: 100vh; overflow:scroll initial">
+    <CDBSidebar textColor="#ffffff" class="bg-dark">
+        <CDBSidebarHeader [prefix]="icon" >
+            <ng-template #icon>
+                <i class="fa fa-bars fa-large"></i>
+            </ng-template>
+
+            Contrast
+        </CDBSidebarHeader>
+
+        <CDBSidebarContent>
+            <CDBSidebarMenu class="sidebar-content">
+                <CDBSidebarMenuItem link='/' icon="columns" >
+                    Dashboard
+                </CDBSidebarMenuItem>
+                <CDBSidebarMenuItem link='/tables' icon="table" >
+                    Tables
+                </CDBSidebarMenuItem>
+                <CDBSidebarMenuItem link='/profile' icon="user" >
+                    Profile
+                </CDBSidebarMenuItem>
+                
+            </CDBSidebarMenu>
+        </CDBSidebarContent>
+        <div class="mt-auto">
+
+           
+        </div>
+    </CDBSidebar>
+</div>
